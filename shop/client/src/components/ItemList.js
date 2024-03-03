@@ -38,6 +38,38 @@ export const ItemList = [
       desc: "Elegant queen size bed frame for a comfortable and stylish bedroom.",
       category: "Bedroom Furniture",
       price: 599.99
+    },
+      {
+      id: 7,
+      title: "Vintage Armchair",
+      img: "2.jpg",
+      desc: "Classic vintage armchair for a touch of nostalgia and comfort.",
+      category: "Living Room Furniture",
+      price: 299.99
+    },
+    {
+      id: 8,
+      title: "Contemporary Dining Set",
+      img: "3.jpg",
+      desc: "Modern dining set perfect for family meals and gatherings.",
+      category: "Dining Room Furniture",
+      price: 499.99
+    },
+    {
+      id: 9,
+      title: "Rustic Bookshelf",
+      img: "4.jpg",
+      desc: "Sturdy and rustic bookshelf to display your favorite books and decor.",
+      category: "Home Office Furniture",
+      price: 149.99
+    },
+    {
+      id: 10,
+      title: "Queen Size Bed Frame",
+      img: "5.jpg",
+      desc: "Elegant queen size bed frame for a comfortable and stylish bedroom.",
+      category: "Bedroom Furniture",
+      price: 599.99
     }
   ];
   

@@ -7,16 +7,20 @@ import Footer from "./components/Footer";
 class App extends React.Component{
   constructor(props){
     super(props)
-    this.state = {ItemList}
+    this.state = {ItemList, orders:[]}
+    this.addToOrders = this.addToOrders.bind(this)
   }
   render(){
   return (
     <div className="wrapper">
-      <Header/>
-      <Items items={this.state.ItemList}/>
+      <Header orders={this.state.orders}/>
+      <Items items={this.state.ItemList} onAdd={this.addToOrders}/>
       <Footer/>
     </div>
   );
+}
+addToOrders(item){
+  this.setState({orders:[...this.state.orders, item]})
 }
 }
 export default App;
