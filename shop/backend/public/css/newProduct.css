@@ -1,0 +1,46 @@
+body{
+    font-family: 'Calibri', serif #ffffff;
+    font-size: 24px;
+}
+input {
+   
+    height: 20px;
+    width:100%;
+}
+#mainDiv
+{  
+    background-image: url("https://images.unsplash.com/photo-1555465910-31f7f20a184d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1890&q=80");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 690px;
+
+}
+
+input [type="checkbox"]{
+    width: 5px;
+    display: flex-inline;
+    margin-left:5px;
+}
+ 
+label{
+    display:flex;
+}
+
+#cont {
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.5);
+    border-radius: 5%;
+  }
+
+.error{
+color:red;
+font-size: 14px;
+
+
+  }
+
+.hide {
+    visibility:hidden;
+}

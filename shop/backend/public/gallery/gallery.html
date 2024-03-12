@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="/css/reg.css" />
+    <script defer type="text/javascript" src="/js/login.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+
+</head>
+<body>
+   
+    <div id="mainDiv">
+       <div style="display:flex; width: 30%; height: 70%; border: 1px inset black; justify-content: center; align-items: center;">
+        
+        
+        <div class="form" id="form">
+            <h3>LOGIN</h3>
+            
+
+            <div class="form-control">
+                <label for="">Email:</label>
+                <input type="email" id="email"/>
+                <label id="eemail" class="error hide">incorrect input</label>
+            </div>
+
+
+            <div class="form-control">
+                <label for="">Password:</label>
+                <input type="password" id="pass1"/>
+                <label id="epass1" class="error hide">incorrect input</label>
+            </div>
+
+           
+            <label id="eform" class="error hide"></label>
+         <button onclick="formSubmit()"> SUBMIT </button>
+           
+
+
+        </div>
+
+
+
+       </div>
+ 
+    </div>
+    
+</body> 
+</html>
